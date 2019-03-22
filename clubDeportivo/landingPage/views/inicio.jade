@@ -1,0 +1,52 @@
+extends layout
+
+block content
+    body(style='width: 1000px; margin: 0 auto; background-color:#fff5f0; padding: 0 20px 20px 20px; border: 2px solid black;')
+        script.
+            var something = function() {
+                alert('¡Gracias!, nos contactaremos contigo pronto.')
+            }
+
+        h1 ¡Presentamos: TECSPORT, el nuevo club deportivo de TECSUP!
+        
+        div
+            p.
+                Porque lo necesitabas, ¡creamos un nuevo club para ti!
+
+        h3 ¿Por qué practicar deporte? 
+
+        ul
+            li Mejora nuestro humor
+            li Mejora nuestra concentración
+            li Reduce el estrés y la depresión
+            li Mejora nuestros los hábitos de sueño
+            li Ayuda a mantener un peso saludable
+            li Mejora la confianza en nosotros mismos
+        
+        h3 "Cuando pienses en dejarlo, piensa en porqué empezaste."    
+
+        h1 ¡REGISTRATE!
+
+        div Separa ahora mismo una subscripción con nosotros:
+            p.
+            input(type="text", placeholder="Nombre")
+
+            p.
+            input(type="text", placeholder="Apellidos")
+            
+            p.
+            input(type="number", placeholder="Edad")
+            
+            p.
+            input(type="text", placeholder="Correo Electrónico")
+            
+            p.    
+            input(type="text", placeholder="Número Telefónico")
+            
+            p Acepto los términos y condiciones.
+                input(type="checkbox" checked=false, disabled=false)             
+
+            button(onclick='something()') Registrar
+            
+
+        h6 Copyright © 2019 - Club deportivo TECSPORT, TECSUP Todos los Derechos Reservados.
