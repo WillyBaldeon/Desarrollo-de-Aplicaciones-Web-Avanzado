@@ -1,0 +1,50 @@
+Alumno: Baldeón Ayala, Willy Alexis
+-----------------------------------
+
+2.2-	Dentro de nuestro directorio de trabajo para este laboratorio, ejecutamos el comando 
+	"npm install express --save" para agregar la librería Express a nuestra aplicación.
+		(Ver imágen adjunta: "2.2 Entendimiento de ejecución de funciones en JavaScript.png")
+
+2.2-	Una vez instalada la librería Express, generamos la estructura recomendada para implementar
+	dicho servicio web.
+		(Ver imágen adjunta: "2.5 Entendimiento de ejecución de funciones en JavaScript.png")
+
+2.11-	Verificamos el resultado obtenido en nuestro localhost una vez iniciado el servidor. 
+		(Ver imágen adjunta: "2.11 Entendimiento de ejecución de funciones n JavaScript.png")
+
+2.13-	Estamos configurando nuestro archivo "index.js" para que sea el controlador principal. Agregamos
+	las funciones necesarias para responder de la manera adecuada según la ruta y el método que
+	reciba la aplicación.
+
+Conclusiones
+------------
+->	Con el comando "npm install express --save", Instalamos la librería Express de modo local.
+	Es decir, esta librería estará disponible solo para el proyecto donde se ejecutó el código.
+
+-->	Instalamos la herramienta Generator de Express con el comando "express-generator". Esta
+	herramienta nos permite integrar a nuestro proyecto el esqueleto estandar recomendado para
+	utilizar Express. Sin embargo, existen muchas otras formas de estructurarlo.
+
+--->	Visualizamos las diversas opciones y comandos que podemos utilizar una vez instalada la librería
+	Express. Gracias a ello, creamos un nuevo directorio llamado "miapp" con el comando "express miapp".
+
+---->	Luego de instalar las dependencias de Node con "npm install", iniciamos el servicio usando el
+	comando "set DEBUG=miapp:* & npm start" puesto que estamos ejecutando la aplicación desde un equipo
+	Windows).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

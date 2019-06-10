@@ -1,0 +1,51 @@
+Alumno: Baldeón Ayala, Willy Alexis
+-----------------------------------
+
+1.9-	Luego de implementar la librería Bootstrap a nuestro proyecto y aplicarla a nuestra
+	vista de inicio, la aplicación tiene cambios significativos en la interfaz.
+		(Ver imágenes adjuntas: "1.9.1 Configuración inicial del proyecto.png" y
+				      	"1.9.2 Configuración inicial del proyecto.png")
+
+2.4-	Creamos un componente "Slides" a nuestra vista inicial. Este componente se trata de un
+	Carousel de imágenes. Está formado por cuatro pestañas, cada una con un título y una imágen
+	asociada. Automáticamente, las pestañas cambian entre sí en cierto intervalo de tiempo y tienen
+	también botones de navegación. Implementar este componente mejora notablemente el inicio
+	de la aplicación.
+		(Ver imágenes adjuntas: "2.4.1 Agregando estilos a las vistas existentes.png",
+				      	"2.4.2 Agregando estilos a las vistas existentes.png",
+					"2.4.3 Agregando estilos a las vistas existentes.png" y
+					"2.4.4 Agregando estilos a las vistas existentes.png")
+
+2.6-	Agregamos un logo y diversos accesos directos en la cabecera de nuestra vista principal.
+	También, agregamos un contenedor adicional debajo del Carrusel.
+		(Ver imagen adjunta: "2.6 Agregando estilos a las vistas existentes.png")
+
+3.2-	Mejoramos la vista LogIn agregando Bootstrap sobre los elementos del formulario.
+		(Ver imagen adjunta: "3.2 Agregando estilos al formulario de inicio.png")
+
+4.5-	Agregamos una vista que captura direcciones incorrectas. Esta vista se superpone siempre que
+	la URL ingresada no forme parte de las rutas registradas por nuestro controlador.
+		(Ver imagen adjunta: "4.5.1 Vista por defecto y vista de bienvenida.png")
+
+
+Conclusiones
+------------
+
+->	
+-->	
+--->	
+---->	
+----->	
+
+
+
+
+
+
+
+
+
+
+
+
+

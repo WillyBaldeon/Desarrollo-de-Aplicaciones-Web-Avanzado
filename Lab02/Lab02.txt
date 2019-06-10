@@ -1,0 +1,95 @@
+Alumno: Baldeón Ayala, Willy Alexis
+-----------------------------------
+
+2.1-	El comando "npm" nos permite visualizar la versión de Node y una lista rápida
+	de funciones y argumentos.
+		(Ver imágen adjunta: "2.1 Identificación de NPM.PNG")
+
+3.4-	Creamos el paquete json y lo configuramos con nuestros datos.
+		(Ver imágen adjunta: "3.4 Creación de package.json.PNG")
+
+4.2-	Al ejecutar el comando "npm install undescore" dentro de nuestro proyecto, se
+	crea la carpeta "underscore" con múltiples archivos.
+		(Ver imágen adjunta: "4.2 Instalación de paquetes mediante NPM.PNG")
+
+4.7-	Una vez ejecutamos nuestro archivo "index.js", en la consola se imprimen los
+	elementos de un array. Para ello, creamos una variable que importa las propiedades
+	de la carpeta "underscore". Luego utilizamos esa variable para recorrer cada
+	elemento el array e imprimirlo en consola.
+		(Ver imágen adjunta: "4.7 Instalación de paquetes mediante NPM.PNG")
+
+4.9-	Creamos una colección con información de múltiples empleados. Luego, utilizando
+	la variable de "underscore", recorremos cada elemento de la colección y con esto,
+	acceder a cada propiedad. Al final, mostramos en consola toda la colección.
+		(Ver imágen adjunta: "4.9 Instalación de paquetes mediante NPM.PNG")
+
+4.10-	Utilizamos el método "pluck" con la variable  de "underscore" para obtener todos
+	dos valores de un campo específico. Imprimimos en consola el resultado.
+		(Ver imágen adjunta: "4.10 Instalación de paquetes mediante NPM.PNG")
+
+4.12-	Gracias a la funcion "chain", podemos anidar otras funciones y realizar un filtro
+	especializado.
+		(Ver imágen adjunta: "4.12 Instalación de paquetes mediante NPM.PNG")
+
+5.5-	Creamos el archivo "replace.js" con una unica función que recibe dos arrays, compara
+	ambos y luego de realizar una modificación, retorna otro array. Desde nuestro
+	archivo índice, creamos una colección que funciona como traductor y alberga dos
+	idiomas y traducciones. Utilizando la función del archivo "replace.js",	modificamos
+	una oración cambiándola de idioma.
+		(Ver imágen adjunta: "5.5 Creación de un paquete en node.js.PNG")
+
+6.3-	Nos registramos en la plataforma "NPMjs".
+		(Ver imágen adjunta: "6.3 Publicación en NPM.PNG")
+
+6.5-	Con el comando "npm adduser", podemos relacionar un proyecto con nuestra cuenta NPM
+	previamente creada.
+		(Ver imágen adjunta: "6.5 Publicación en NPM.PNG")
+
+6.6-	Publicamos nuestro paquete npm con el comando "npm publish".
+		(Ver imágen adjunta: "6.6 Publicación en NPM.PNG")
+
+7.1-	Esta función accede al DOM de la página y en un array, almacena los datos de todos los
+	botones. Después, recorremos cada elemento del array, o sea, cada botón, y asignamos
+	un ClickListener a cada uno. De este modo, al seleccionar cualquier botón, se imprimirá
+	un mensaje adecuado en la consola.
+
+7.3-	La función imprime 4 números en la consola. Sin embargo, utiliza la función "setTimeout"
+	para establecer un retraso.
+		(Ver imágen adjunta: "7.3 Entendimiento de ejecución de funciones en JavaScript.PNG")
+
+7.5- 	Utilizando el operador de corto circuito "&&", reducimos a una sola línea la declaración
+	de una condición.
+
+7.10-	Creamos dos variables constructoras: "Persona" y "Programador". Cada uno se encarga de
+	settear valores según los parámetros recibidos. Además, el modelo "Persona" tiene una función
+	de retorno: "obtenerEdad". Para probar los constructores, creamos dos variables con cada uno
+	e imprimimos en pantalla el resultado de "obtenerEdad" de la variable "Programador".
+		(Ver imágen adjunta: "7.10 Entendimiento de ejecución de funciones en JavaScript.PNG")
+
+Conclusiones
+------------
+->	Iniciamos el asistente de creación de proyectos Node con el comando "npm init". Este
+	asistente nos solicita diversos datos para generar el manifiesto del proyecto (package.json).	
+
+-->	En Javascript no existen palabras reservadas. En su lugar, se usan objetos que
+	heredan propiedades de otros.
+
+--->	Todos los campos heredados de otros objetos son públicos.
+
+---->	Las clausuras (closures) se utilizan para optimizar el manejo de objetos. Si una
+	función externa devuelve una función interna, la función interna tiene acceso a
+	las variables de la función externa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
