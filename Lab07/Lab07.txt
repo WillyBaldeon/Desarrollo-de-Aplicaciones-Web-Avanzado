@@ -25,27 +25,27 @@ Alumno: Baldeón Ayala, Willy Alexis
 
 4.5-	Agregamos una vista que captura direcciones incorrectas. Esta vista se superpone siempre que
 	la URL ingresada no forme parte de las rutas registradas por nuestro controlador.
-		(Ver imagen adjunta: "4.5.1 Vista por defecto y vista de bienvenida.png")
-
+		(Ver imagen adjunta: "4.5 Vista por defecto y vista de bienvenida.png")
 
 Conclusiones
 ------------
 
-->	
--->	
---->	
----->	
------>	
+->	Utilizamos nuevamente la librería "react-router-dom" de nuestro proyecto para manipular nuevas
+	rutas y nuevas vistas. De igual modo, definimos una ruta específica para cuando el usuario
+	intente acceder a una dirección incorrecta.
 
+-->	En nuestra pantalla inicial, agregamos un elemento Carrusel de React. En él, añadimos 4 pestañas
+	cada una con una imagen adecuada y un texto diferente. Este componente tiene una transición muy
+	vistosa por defecto, la cual desplaza la vista por cada una de las pestañas de manera automática.
 
+--->	Implementamos una cabecera adecuada que permite acceder fácilmente a los diversos apartados que
+	tendrá la aplicación próximamente. Esta, al ser un componente, estará visible prácticamente en
+	todas las vistas y servirá tanto para la navegación como para la identificación de nuestra aplicación.
 
+---->	Mejoramos el diseño del LogIn apoyándonos de Bootstrap. Esto fue especialmente sencillo puesto que
+	basta con agregar las clases de Bootstrap a los elementos de nuestro formulario y el resultado
+	es muy vistoso.
 
-
-
-
-
-
-
-
-
-
+----->	El desarrollo del laboratorio se basó principalmente en mejorar la interfaz, la experiencia de
+	usuario y la navegación. Para ello, fue necesario combinar diversos componentes de React con el
+	popular Framework de Bootstrap.
