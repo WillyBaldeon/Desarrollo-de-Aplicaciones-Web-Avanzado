@@ -1,0 +1,72 @@
+Alumno: Baldeón Ayala, Willy Alexis
+-----------------------------------
+
+1.4-	Luego de instalar en nuestro proyecto todas las librerías necesarias para el funcionamiento
+	planteado, creamos el archivo "server.js" el cual es el pilar de nuestra aplicación. En este
+	archivo configuramos el uso de Express, la ruta principal, la conexión con MongoDB, el puerto
+	y especificamos que se implementarán los métodos HTTP (GET, POST, PUT, DELETE).
+
+	Luego de toda la configuración, en la consola ejecutamos el comando "node server.js" lo cual
+	iniciará el servicio web.
+			(Ver imagen adjunta: 1.4. Configuración inicial del proyecto.png)
+
+2.5-	Descargamos PostMan desde la página oficial, lo instalamos y probamos nuestra primera
+	petición GET con la ruta inicial agregada anteriormente en el archivo "server.js".
+	El resultado es el esperado, lo que significa que el servicio web está funcionando
+	correctamente.
+			(Ver imagen adjunta: 2.5 Instalación de Postman.png)
+
+6.8-	Creamos nuestro proyecto en React y diseñamos los componentes fundamentales para la
+	pantalla principal. Ejecutamos la aplicación con el comando "npm start" lo que nos abre
+	una nueva pestaña en nuestro navegador con la vista diseñada.
+			(Ver imagen adjunta: 6.8 Creación de sitio en React.png)
+
+6.9-	Gracias a que nuestro proyecto tiene la librería "react-router-dom", podemos navegar
+	utilizando rutas. Probamos esta funcionalidad agregando un botón y una redirección
+	al pulsarlo.
+			(Ver imágenes adjuntas: 6.9.1 Creación de sitio en React.png y
+						6.9.2 Creación de sitio en React.png)
+
+	Prueba de Funcionamiento
+	------ -- --------------
+
+	Antes de ejecutar nuestro servicio web, debemos iniciar los servicios de Mongo. Entonces,
+	con la ayuda de PostMan probamos la inserción de usuarios  en la ruta "api/user/signup"
+	con el método POST seleccionado. Debemos tener en cuenta las configuraciones realizadas en
+	nuestro de modelo de usuarios puesto que intervendrán en este punto: todos los campos son
+ 	requeridos, debe ser un email válido y el usuario solo puede contener letras y números.
+			(Ver imagen adjunta: 7.5.1 Probando la aplicación.png)
+
+	Al añadir los datos y el método correcto, PostMan nos muestra el resultado esperado. Entonces,
+	asumimos que el usuario se agregó correctamente.
+			(Ver imagen adjunta: 7.5.2 Probando la aplicación.png)
+
+	Verificamos la creación del usuario en Mongo. El comando "find()" nos muestra que, efectivamente,
+	el usuario fue creado.
+			(Ver imagen adjunta: 7.5.3 Probando la aplicación.png)
+
+	Lo último es comprobar el inicio de sesión. Para ello, con el método POST, agregamos los datos
+	de usuario y contraseña en la ruta "api/user/singin". Nuevamente, el resultado es satisfactorio
+	con lo que ya tendríamos implementados en nuestra aplicación el registro e inicio de sesión.
+			(Ver imagen adjunta: 7.5.4 Probando la aplicación.png)
+
+Conclusiones
+------------
+
+->	PostMan es una de las más útiles herramientas al momento de verificar si nuestro servicio web funciona
+	correctamente.
+
+-->	Un Servicio Web tiene como finalidad recibir y responder diversas peticiones por parte de la aplicación
+	que lo utilice. Para esto, es fundamental que el servicio implemente los métodos HTTP.
+
+--->	Los Tokens tienen diversos usos pero principalmente sirven para la autenticación. En muchos sistemas,
+	se hace uso de estos datos para verificar qué usuario tiene una sesión activa y ejecutar una u otra
+	funcionalidad según sea el caso.
+
+---->	Creamos un proyecto React con la librería "react-router-dom" para manejar rutas. La desarrollo del
+	laboratorio tiene como finalidad relacionar ambos apartados de modo de tener tanto el Front End como
+	el Back End funcionando sobre JavaScript.
+
+----->	Desarrollamos un Servicio Web con los métodos HTTP básicos para el manejo de datos. Este servicio
+	trabaja conjuntamente con una instancia de Mongo y posteriormente será consumido por nuestra aplicación
+	en React.
