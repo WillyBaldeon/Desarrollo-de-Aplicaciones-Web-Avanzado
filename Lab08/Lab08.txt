@@ -1,0 +1,43 @@
+Alumno: Baldeón Ayala, Willy Alexis
+-----------------------------------
+
+3.3-	Luego de instalar nuevamente todas las dependencias necesarias, añadimos nuevas vistas a la
+	aplicación y las personalizamos principalmente utlizando la librería "Helmet", "Gravatar" y
+	"Fortawesome". Diseñamos tarjetas que simulan a la perfección una bandeja de entrada y un cuadro
+	de chat. Visualmente, también implementamos otros elementos como un buscador, un cuadro de
+	entrada de texto y un botón de "enviar". Finalmente, agregamos una nueva ruta para mostrar estos
+	componentes y añadimos un botón que nos redireccione directamente a esta vista.
+		(Ver imágenes adjuntas: "3.3.1 Conexión de Socket.IO.png" y
+				      	"3.3.2 Conexión de Socket.IO.png")
+
+4.3-	Nos registramos en la página poficial de ZEIT para poder utilizar el servicio "Now.sh". Luego,
+	con nuestro gestor NPM instalamos esta aplicación de manera global para poder levantar servicios
+	desde cualquier directorio. Finalmente, agregamos el archivo de configuración proporcionado en el
+	laboratorio a la matríz del proyecto. Entonces, con todo preparado, ejecutamos el comando "now"
+	dentro de nuestro directorio principal y automáticamente se iniciará el Deploy de la aplicación.
+	Al hacerlo por primera vez tendremos que autenticarnos directamente por la consola y aceptar la
+	confirmación enviada al correo proporcionado.
+		(Ver imágenes adjuntas: "4.3.1 Deploy con now.sh.png",
+					"4.3.2 Deploy con now.sh.png" y
+				      	"4.3.3 Deploy con now.sh.png")
+
+Conclusiones
+------------
+
+->	Como modificamos directamente el archivo "package.json" y eliminamos la carpeta
+	"node_modules", para poder utilizar todas las librerías que agregamos al proyecto es
+	necesario ejecutar el comando "npm install" en una consola. De este modo, instalaremos
+	todas las dependencias que agregamos manualmente.
+
+-->	Instalamos la librería "Fortawesome", la cual nos permite utilizar una serie de íconos
+	variados de manera gratuita. El catálogo es muy amplio pero podemos consultarlo fácilmente
+	desde su página web.
+
+--->	Implementamos la librería "Gravatar" que se trata de un servicio de avatares online. Funciona
+	proporcionando un correo cifrado y nos retorna la imagen pública del correo que hayamos
+	agregado.
+
+---->	El desarrollo del laboratorio nos llevó a juntar múltiples tecnologías en nuestra aplicación.
+	Por un lado, "Helmet" y "Fortawesome" permitieron diseñar una interfaz vistosa. Con "Socket.io"
+	conectamos nuestro chat y "md5" cifraba los remitentes. También, relacionamos usuarios con
+	avatares de "Gravatar".
