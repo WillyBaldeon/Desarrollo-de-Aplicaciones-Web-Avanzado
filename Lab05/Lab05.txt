@@ -1,0 +1,74 @@
+Alumno: Baldeón Ayala, Willy Alexis
+-----------------------------------
+
+1.7-	Creamos un nuevo proyecto e instalamos todas las dependencias necesarias con el comando
+	"npm install". Luego, definimos la estructura de nuestro proyecto para tener un mejor
+	control sobre nuestros archivos. El archivo  'server.js' se encarga de realizar las
+	configuraciones para conectar la aplicación al puerto 3000 y declara unas rutas. Finalmente,
+	utilizando archivos 'jade', diseamos la vista inicial de nuesta aplicación que principalmente
+	consta de elementos para un formulario. Utilizamos clases y configuramos algunas propiedades
+	para mejorar la interfaz.
+		(Ver imagen adjunta: "1.7 Continuación de laboratorio anterior.png")
+
+2.5-	Creamos archivos JavaScript para manipular el DOM de nuestro servidor. Utilizando las clases
+	proporcionadas antes, accedemos a los datos ingresados por el usuario captando la pulsación
+	del botón 'Guardar'. También, realizamos validaciones con alertas para cuando el usuario no llena
+	todos los campos. Finalmente, utilizamos 'Socket.io' para detectar los Logeos satisfactorios.
+	Esto más adelante nos puede servir para manejar sesiones.
+		(Ver imágenes adjuntas: "2.5.1 Creación de registro con mongoose y socket.io.png",
+					"2.5.2 Creación de registro con mongoose y socket.io.png" y
+					"2.5.3 Creación de registro con mongoose y socket.io.png")
+
+2.7-	Reiniciamos el servidor e intentamos acceder nuevamente con los datos provistos la última vez.
+	El resultado imprimió nuestros datos en consola. Esto se consiguió gracias a 'Socket.io' que
+	detectó la conexión.
+		(Ver imágenes adjuntas: "2.7.1 Creación de registro con mongoose y socket.io.png" y
+					"2.7.2 Creación de registro con mongoose y socket.io.png")
+
+2.14-	Creamos un nuevo archivo en el que realizamos la conexión con nuestra base de datos de Mongo.
+	También, definimos un modelo de datos para almacenar la información proporcionada en el formulario.
+	Importamos el archivo y agregamos una tabla con estilos de BootsTrap en la pantalla principal.
+	Probamos la aplicación corriendo dos instancias simultáneamente. Al llenar los datos en cualquiera
+	de las dos, Mongo capturará los registros y estos se visualizarán en la tabla.
+
+		(Ver imagen adjunta: "2.14 Creación de registro con mongoose y socket.io.png")
+	
+Conclusiones
+------------
+
+->	Nuestro archivo 'server.js' es el encargado de configurar la conexión con el puerto, declarar rutas y
+	conectar con HTML. Se puede decir que es la raíz de nuestra aplicación. Sin embargo, toda la funcionalidad
+	y vistas se encuentran en archivos diferentes por lo que pocas veces tendremos que recurrir a este archivo
+	para corregir algún problema.
+
+-->	Diseñamos vistas utilizando el lenguaje Jade. Este lenguaje es motor de plantillas para integrar vistas.
+	Por defecto, la estructura de Express está diseñada en Jade. Algunas características importantes de Jade
+	es su estructura. No utiliza etiquetas '<>', sino que se basa en espacios y sangrías de manera similar a 
+	Python.
+
+--->	Conectamos nuestra aplicación web con MongoDB para almacenar los registros de los usuarios que
+	llenen el formulario. Asímismo, realizamos conexiones con 'Socket.io' para detectar siempre que 
+	un documento de Mongo se altere. Captando esa señal, recargamos nuestra vista de modo que se muestren
+	los registros en la tabla.
+
+---->	Para consultar los datos de cuaquier base de datos, es necesario encapsularlos en un modelo adecuado.
+	De hecho, esta es una de las mejores prácticas posibles puesto que de este modo tenemos acceso a cada
+	campo y podremos realizar operaciones CRUD sobre nuestros registros.
+
+----->	El desarrollo del laboratorio nos permitió unir varias tecnologías conocidas hasta el momento para integrarlas
+	en una sola aplicación web que sea capaz de registrar y manejar datos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
