@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio 7.1</title>
+</head>
+
+<body>  
+
+    <button value="Boton 1" id="text1" onclick="getvalue()">Botón 1</button><br><br>
+
+    <!-- Botones para el ejercicio 7.1 
+    <button value="Boton 2" id="text1" onclick="getvalue()">Botón 2</button><br><br>
+    <button value="Boton 3" id="text1" onclick="getvalue()">Botón 3</button><br><br>
+    <button value="Boton 4" id="text1" onclick="getvalue()">Botón 4</button><br><br>
+    <button value="Boton 5" id="text1" onclick="getvalue()">Botón 5</button><br><br>
+    -->
+</div>
+
+<p>Tu clickeaste el elemento:</p><p id="demo"></p>
+
+<script>
+
+//Ejercicio 7.1
+/*
+   (function init() {
+
+        var nodes = document.getElementsByTagName('button');
+        for (var i = 0; i < nodes.length; i++) {
+            nodes[i].addEventListener('click', function () {
+                console.log('you clicked element #' + i)
+            })
+
+        }
+    })();
+*/
+
+//Propuesta
+
+    function getvalue() {
+    var x = document.getElementById("text1").value;
+    document.getElementById("demo").innerHTML = x;
+    }
+
+
+</script>
+</body>
+</html>
