@@ -1,6 +1,6 @@
 Alumno: Baldeón Ayala, Willy Alexis
 -----------------------------------
-
+	
 4.2.1-	Utilizamos MongoDB para definir variables como en JavaScript.
 		(Ver imagen adjunta: "4.2.1 Verificación de la instalación.PNG")
 
