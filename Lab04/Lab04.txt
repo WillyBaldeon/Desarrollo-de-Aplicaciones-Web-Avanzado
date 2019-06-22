@@ -1,0 +1,42 @@
+Alumno: Baldeón Ayala, Willy Alexis
+-----------------------------------
+
+2.5-	Luego de la instalación de Mongo, utilizamos una base de datos de prueba e insertamos
+	un nuevo documento para verificar que no hay ningún error en nuestra implementación.
+		(Ver imagen adjunta: "2.5 Configuración de MongoDB.png")
+
+3.5-	Implementamos los métodos CRUD los cuales corresponden a las propiedades "show", "create",
+	"update" y "delete" de nuestro objeto Producto.
+
+Conclusiones
+------------
+
+->	Instalamos y configuramos MongoDB siguiendo su asistente de instalación. Después, insertamos
+	documentos para probar que está funcionando correctamente.
+
+-->	Continuamos desarrollando nuestro proyecto en Express creado en el laboratorio anterior. Esta
+	vez, lo conectamos con nuestra instancia en Mongo e implementamos funciones CRUD para manipular
+	nuestros registros.
+
+--->	Hicimos uso de esquemas y modelos que nos permitan crear documentos de manera sencilla en
+	nuestra base de datos.
+
+---->	Diseñamos algunas vistas utilizando Jade. Además, manipulamos el comportamiento de la aplicación
+	con ayuda de JQuery.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
