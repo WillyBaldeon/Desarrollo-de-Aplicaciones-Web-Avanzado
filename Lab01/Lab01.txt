@@ -1,0 +1,83 @@
+Alumno: Baldeón Ayala, Willy Alexis
+-----------------------------------
+
+4.2.1-	Utilizamos MongoDB para definir variables como en JavaScript.
+		(Ver imagen adjunta: "4.2.1 Verificación de la instalación.PNG")
+
+4.2.2-	Con las variables previamente definidas, realizamos operaciones básicas.
+		(Ver imagen adjunta: "4.2.2 Verificación de la instalación.PNG")
+
+4.2.3-	Utilizamos el comando "console.log" para mostrar en pantalla todos los resultados
+	de nuestras operaciones.
+		(Ver imagen adjunta: "4.2.3 Verificación de la instalación.PNG")
+
+4.2.4-	Asímismo, mostramos una a una cada variable.
+		(Ver imagen adjunta: "4.2.4 Verificación de la instalación.PNG")
+
+4.2.5-	Accedimos a los métodos de la librería Math para realizar operaciones complejas con
+	los valores indicados.
+		(Ver imagen adjunta: "4.2.5 Verificación de la instalación.PNG")
+
+4.2.6-	Probamos los métodos matemáticos sobre nuestras variables.
+		(Ver imagen adjunta: "4.2.6 Verificación de la instalación.PNG")
+
+4.2.7-	Manipulamos las diferentes propiedades que nos JavaScript nos permite manejar sobre
+	cadenas de texto.
+		(Ver imagen adjunta: "4.2.7 Verificación de la instalación.PNG")
+
+4.2.8-	Finalmente, creamos nuestras propias funciones utilizando argumentos y retornando
+	nuevos valores.
+		(Ver imagen adjunta: "4.2.8 Verificación de la instalación.PNG")
+
+5.5-	Al ejecutar el archivo, visualizamos nuestro mensaje en consola. Sin embargo, aún no
+	podemos establecer conexión con el navegador.
+		(Ver imagen adjunta: "5.5 Hola mundo con node.js.PNG")
+
+5.8-	Modificamos nuestro método de conexión al puerto 8080. Ahora, la consola nos muestra un
+	aviso satisfactorio en caso de conectar correctamente.
+		(Ver imagen adjunta: "5.8 Hola mundo con node.js.PNG")
+
+6.3-	Creamos el archivo "index.html" en el que configuramos el DOM de nuestra página. Después,
+	contectamos esa vista a nuestro servidor web utilizando el método 'http'.
+		(Ver imagen adjunta: "6.3 Leer Archivo de Servidor.PNG")
+
+6.4-	Modificamos ligeramente el orden de las declaraciones en nuestro archio JS. Sin embargo,
+	la página no sufrió ninguna alteración.
+		(Ver imagen adjunta: "6.4 Leer Archivo de Servidor.PNG")
+
+7.3-	Al ejecutar el servidor, obtenemos un error de declaración. La consola nos ayuda indicándonos
+	en qué archivo ocurrió el conflicto incluso nos indica el punto exacto. 
+		(Ver imagen adjunta: "7.3.1 Uso de la librería HTTP.PNG").
+	
+	En este caso, el problema fue que estamos intentando acceder a un Array que no ha sido declarado.
+	Basta con declarar la variables unas lineas más arriba para solucionar el error.
+		(Ver imagen adjunta: "7.3.2 Uso de la librería HTTP.PNG")
+
+
+7.4-	Estamos utilizando el método Request para recibir parámetros encapsulados en la URL. Después,
+	los mostramos en la vista utilizando nuestro archivo '.html'
+		(Ver imagen adjunta: "7.3.4 Uso de la librería HTTP.PNG")
+
+Conclusiones
+------------
+->	Verificamos la sintaxis básica para la declaración de variables, funciones y clases. En este
+	sentido, JavaScript demuestra una enorme flexibilidad y potencia.
+
+-->	Probamos el lanzamiento de servidores utilizando los métodos HTTP y archivos 'html'. Para ello,
+	fue necesario ocupar un puerto libre y acceder desde un navegador con la ruta 'localhost:'.
+
+--->	Reconocimos errores de implementación en nuestro código y dimos solución a las situaciones
+	planteadas.
+
+---->	Las aplicaciones con JavaScript por lo general están conformadas por múltiples archivos de configuración.
+	Debemos importar estos siempre que sea necesario proporcionando la ruta de directorios adecuada.
+
+----->	Al iniciar el laboratorio, instalamos en nuestros equipos el complemento Node de JavaScript.
+	Realizamos diversas pruebas en consola y con archivos configurados. Dimos un primer vistazo a la
+	estructura de elementos y a la manera de programar con este motor.
+
+
+
+
+
+
