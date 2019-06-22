@@ -32,6 +32,9 @@ Conclusiones
 	comando "set DEBUG=miapp:* & npm start" puesto que estamos ejecutando la aplicación desde un equipo
 	Windows).
 
+----->	Utilizamos una extensión de Firefox para utilizarlo como Middleware de nuestro proyecto. Esto
+	permitió capturar errores, agregar rutas e importar nuevos archivos.
+
 
 
 
