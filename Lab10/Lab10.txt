@@ -1,36 +1,40 @@
 Alumno: Baldeón Ayala, Willy Alexis
 -----------------------------------
 
-	Prueba de Funcionamiento
-	------ -- --------------
+6.3-	Instalamos la extensión de Redux en nuestro navegador. Luego de realizar las
+	configuraciones necesarias y de reemplazar nuestras conecciones Axios por métodos
+	de Redux, nos logeamos en la aplicación y vemos los datos correctos en la extensión.
+			(Ver imagen adjunta: 6.3 Modificando el menú de cabecera.gif)
 
-	Probaremos la aplicación consumiendo la API que creamos en laboratorios anteriores. Para ello,
-	iniciamos nuestro servicio web y Mongo. Probamos la funcionalidad del Login con las credenciales
-	del usuario creado con anterioridad a través de Postman. Una vez logeados, accedemos a la vista
-	de chats creada en el laboratorio anterior para verificar que no fue afectada a pesar de los
-	cambios realizados.
-			(Ver gif adjunto: 6.1 Probando la aplicación.gif)
-
-	Accedemos a la vista "Perfil" desde el acceso directo agregado en la cabecera con el elemento
-	"NavDropDown". Esta vista fue diseñada en el transurso del laboratorio y su principal atractivo
-	está en el componente "Tab". Dicho componente contiene múltiples pestañas y nos permite modificar
-	el contenido de cada una. También, la vista cuenta con otros apartados personalizados con los
-	íconos proporcionados por FontAwesomeIcon.
-			(Ver gif adjunto: 6.2 Probando la aplicación.gif)
-
-	Finalmente, visualizamos la vista "Editar Perfil" que se trata de un formulario en un contenedor.
-	Por ahora, esta vista no realiza ninguna acción.
-			(Ver gif adjunto: 6.3 Probando la aplicación.gif)
+7.6-	Migramos toda nuestra aplicación para que consuma la data utilizando Redux. Para ello,
+	quitamos las conexiones en el ciclo ComponentDidMount de todos nuestros componentes.
+	En su lugar, utilizamos el método Connetc de la librería Redux para obtener los
+	parámetros del usuario y exportar el archivo.
+	
+	Al ejecutar la aplicación, vemos que nuestro Login ya no nos redirige a otra pantalla.
+	Por el contrario, habilita las opciones Perfil y Chat. Entonces, podemos concluir
+	que nuestra aplicación ahora funciona completamente con Redux.
+			(Ver gif adjunto: 7.6 Retoques finales.gif)
 
 Conclusiones
 ------------
-->	Instalamos la librería Morgan utilizando nuestro gestor NPM. Esta librería se trata de un inspector
-	de solicitudes HTTP que se puede aplicar para tratar la respuesta de una consulta.
 
--->	Creamos las nuevas vistas "DetallesPerfil" y "EditarPerfil". Las agregamos a nuestro componente
-	principal y agregamos rutas a cada una. Como hemos venido haciendo, diseñamos la interfaz con Helmet
-	y AwesomeIcon.
+->	Utilizamos el componente Provider para controlar nuestro estado principal. Es de suma
+	importancia que este archivo se renderice antes que cualquier otro puesto que el método
+	'composeEnhancers' podría no ejecutarse y afectar a toda la aplicación.
 
---->	Manipulamos el ciclo de vida de nuestros componentes para acceder a los datos del usuario actualmente
-	logeado. Adicionalmente, almacenamos el email del usuario con sesión activa en el LocalStorage luego
-	de acceder al sistema.
+
+-->	Hicimos uso de una técnica de programadores llamada "Spreading Object". Se trata del
+	envío de propiedades de un objeto a otro. Básicamente, compartimos parámetros entre los
+	objetos y componentes que vayamos creando.
+
+---> 	Implementamos el método Connect de Redux en todos los apartados de nuestra aplicación que
+	consumen la API. Esta función es una de las más importantes puesto que conecta los reductores
+	de nuestro componente. Utilizamos directamente este método con la técnica Spreading Object de
+	modo que, indiquemos las propiedades a compartir y el reductor que se encargará de continuar
+	la ejecución del programa.
+
+---->	El desarrollo del laboratorio estuvo totalmente enfocado a la integración de Redux y
+	los métodos que utiliza. No hubo un cambio significativo en la aplicación. Sin embargo,
+	el simple hecho de cambiar la conexión de nuestra aplicación, puede significar una mejora
+	en el rendimiento.
